@@ -16,7 +16,7 @@ namespace LiveRoom
             {
                 options.AddDefaultPolicy(builder =>
                 { 
-                    builder.WithOrigins("http://localhost:3000")
+                    builder.WithOrigins("https://liveroom-45uv.onrender.com", "http://localhost:3000")
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .AllowCredentials();
